@@ -6,6 +6,11 @@
 		<title>Socket.io Basics</title>
 		<link rel="stylesheet" href="./css/bootstrap.min.css">
 		<link rel="stylesheet" href="./css/styles.css">
+		<style>
+			.well {
+				margin-top: 35px;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="container">
@@ -14,7 +19,7 @@
 
 					<a href="./index.html">Change Settings</a>
 
-					<h1 class="room-title"><!-- room name (use jQuery)--></h1>
+					<h1 class="room-title text-center"><!-- room name (use jQuery)--></h1>
 
 					<ul class="messages list-group">
 						<!-- Messages end up here -->
@@ -26,7 +31,7 @@
 								<span class='input-group-addon'>
 									<i class='glyphicon glyphicon-comment'></i>
 								</span>
-								<input type="text" name="message" class='form-control'/>	
+								<input autocomplete="off" type="text" name="message" class='form-control'/>	
 								
 							</div>
 						</div>
